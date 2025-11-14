@@ -86,7 +86,7 @@ const Cart = () => {
           <div style={{ color: "red", fontSize: "1.3rem" }}>
             <h4>Test Card Number : </h4>
             <p>4242 4242 4242 4242</p>
-            <p>10-22 | 123</p>
+            <p>12-{new Date().getFullYear().toString().slice(2)} | 123</p>
           </div>
           <div className="cart-totals__checkout">
             <CheckoutButton />
